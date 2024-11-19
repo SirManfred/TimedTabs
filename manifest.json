@@ -1,0 +1,27 @@
+{
+  "manifest_version": 3,
+  "name": "Tab Timer",
+  "version": "1.0",
+  "description": "Automatically close inactive tabs after a set time period",
+  "permissions": [
+    "tabs",
+    "storage",
+    "alarms",
+    "scripting"
+  ],
+  "background": {
+    "service_worker": "background.js",
+    "type": "module"
+  },
+  "host_permissions": [
+    "<all_urls>"
+  ],
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "icons": {
+    "16": "icon16.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  }
+}
