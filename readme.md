@@ -1,5 +1,4 @@
-# Tab Timer
-
+# Timed Tabs
 A Chrome extension that automatically closes inactive tabs after a customizable time period. Helps manage browser tab clutter while ensuring recently used tabs are protected.
 
 ## Features
